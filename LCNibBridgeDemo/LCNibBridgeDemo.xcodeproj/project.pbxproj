@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57760A671CF81C5600FA1AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A661CF81C5600FA1AAE /* AppDelegate.swift */; };
+		57760A691CF81C5600FA1AAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A681CF81C5600FA1AAE /* ViewController.swift */; };
+		57760A6C1CF81C5600FA1AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57760A6A1CF81C5600FA1AAE /* Main.storyboard */; };
+		57760A6E1CF81C5600FA1AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57760A6D1CF81C5600FA1AAE /* Assets.xcassets */; };
+		57760A711CF81C5600FA1AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57760A6F1CF81C5600FA1AAE /* LaunchScreen.storyboard */; };
+		57760A7C1CF81C5700FA1AAE /* LCNibBridgeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A7B1CF81C5700FA1AAE /* LCNibBridgeDemoTests.swift */; };
+		57760A871CF81C5700FA1AAE /* LCNibBridgeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A861CF81C5700FA1AAE /* LCNibBridgeDemoUITests.swift */; };
+		57760A971CF81C8300FA1AAE /* LCNibConvention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A951CF81C8300FA1AAE /* LCNibConvention.swift */; };
+		57760A981CF81C8300FA1AAE /* LCNibBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A961CF81C8300FA1AAE /* LCNibBridge.swift */; };
+		57760A9A1CF81FB300FA1AAE /* LCMokeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57760A991CF81FB300FA1AAE /* LCMokeView.xib */; };
+		57760A9C1CF81FBD00FA1AAE /* LCMokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A9B1CF81FBD00FA1AAE /* LCMokeView.swift */; };
+		57760A9E1CF81FE300FA1AAE /* LCGrasslandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A9D1CF81FE300FA1AAE /* LCGrasslandView.swift */; };
+		57760AA01CF81FFE00FA1AAE /* LCGrasslandView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57760A9F1CF81FFE00FA1AAE /* LCGrasslandView.xib */; };
+		57760AA51CF8214D00FA1AAE /* moke.png in Resources */ = {isa = PBXBuildFile; fileRef = 57760AA31CF8214D00FA1AAE /* moke.png */; };
+		57760AA61CF8214D00FA1AAE /* grassland.png in Resources */ = {isa = PBXBuildFile; fileRef = 57760AA41CF8214D00FA1AAE /* grassland.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57760A781CF81C5700FA1AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57760A5B1CF81C5600FA1AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57760A621CF81C5600FA1AAE;
+			remoteInfo = LCNibBridgeDemo;
+		};
+		57760A831CF81C5700FA1AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57760A5B1CF81C5600FA1AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57760A621CF81C5600FA1AAE;
+			remoteInfo = LCNibBridgeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57760A631CF81C5600FA1AAE /* LCNibBridgeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCNibBridgeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57760A661CF81C5600FA1AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57760A681CF81C5600FA1AAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57760A6B1CF81C5600FA1AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57760A6D1CF81C5600FA1AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57760A701CF81C5600FA1AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57760A721CF81C5700FA1AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57760A771CF81C5700FA1AAE /* LCNibBridgeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCNibBridgeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57760A7B1CF81C5700FA1AAE /* LCNibBridgeDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCNibBridgeDemoTests.swift; sourceTree = "<group>"; };
+		57760A7D1CF81C5700FA1AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57760A821CF81C5700FA1AAE /* LCNibBridgeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCNibBridgeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57760A861CF81C5700FA1AAE /* LCNibBridgeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCNibBridgeDemoUITests.swift; sourceTree = "<group>"; };
+		57760A881CF81C5700FA1AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57760A951CF81C8300FA1AAE /* LCNibConvention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibConvention.swift; sourceTree = "<group>"; };
+		57760A961CF81C8300FA1AAE /* LCNibBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibBridge.swift; sourceTree = "<group>"; };
+		57760A991CF81FB300FA1AAE /* LCMokeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCMokeView.xib; sourceTree = "<group>"; };
+		57760A9B1CF81FBD00FA1AAE /* LCMokeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCMokeView.swift; sourceTree = "<group>"; };
+		57760A9D1CF81FE300FA1AAE /* LCGrasslandView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCGrasslandView.swift; sourceTree = "<group>"; };
+		57760A9F1CF81FFE00FA1AAE /* LCGrasslandView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCGrasslandView.xib; sourceTree = "<group>"; };
+		57760AA31CF8214D00FA1AAE /* moke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moke.png; sourceTree = "<group>"; };
+		57760AA41CF8214D00FA1AAE /* grassland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grassland.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57760A601CF81C5600FA1AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57760A741CF81C5700FA1AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57760A7F1CF81C5700FA1AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57760A5A1CF81C5600FA1AAE = {
+			isa = PBXGroup;
+			children = (
+				57760A941CF81C6F00FA1AAE /* Class */,
+				57760A651CF81C5600FA1AAE /* LCNibBridgeDemo */,
+				57760A7A1CF81C5700FA1AAE /* LCNibBridgeDemoTests */,
+				57760A851CF81C5700FA1AAE /* LCNibBridgeDemoUITests */,
+				57760A641CF81C5600FA1AAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57760A641CF81C5600FA1AAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57760A631CF81C5600FA1AAE /* LCNibBridgeDemo.app */,
+				57760A771CF81C5700FA1AAE /* LCNibBridgeDemoTests.xctest */,
+				57760A821CF81C5700FA1AAE /* LCNibBridgeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57760A651CF81C5600FA1AAE /* LCNibBridgeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				57760A661CF81C5600FA1AAE /* AppDelegate.swift */,
+				57760A681CF81C5600FA1AAE /* ViewController.swift */,
+				57760A9B1CF81FBD00FA1AAE /* LCMokeView.swift */,
+				57760A991CF81FB300FA1AAE /* LCMokeView.xib */,
+				57760A9D1CF81FE300FA1AAE /* LCGrasslandView.swift */,
+				57760A9F1CF81FFE00FA1AAE /* LCGrasslandView.xib */,
+				57760A6A1CF81C5600FA1AAE /* Main.storyboard */,
+				57760AA21CF8213E00FA1AAE /* Image */,
+				57760A6D1CF81C5600FA1AAE /* Assets.xcassets */,
+				57760A6F1CF81C5600FA1AAE /* LaunchScreen.storyboard */,
+				57760A721CF81C5700FA1AAE /* Info.plist */,
+			);
+			path = LCNibBridgeDemo;
+			sourceTree = "<group>";
+		};
+		57760A7A1CF81C5700FA1AAE /* LCNibBridgeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				57760A7B1CF81C5700FA1AAE /* LCNibBridgeDemoTests.swift */,
+				57760A7D1CF81C5700FA1AAE /* Info.plist */,
+			);
+			path = LCNibBridgeDemoTests;
+			sourceTree = "<group>";
+		};
+		57760A851CF81C5700FA1AAE /* LCNibBridgeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57760A861CF81C5700FA1AAE /* LCNibBridgeDemoUITests.swift */,
+				57760A881CF81C5700FA1AAE /* Info.plist */,
+			);
+			path = LCNibBridgeDemoUITests;
+			sourceTree = "<group>";
+		};
+		57760A941CF81C6F00FA1AAE /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				57760A951CF81C8300FA1AAE /* LCNibConvention.swift */,
+				57760A961CF81C8300FA1AAE /* LCNibBridge.swift */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		57760AA21CF8213E00FA1AAE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				57760AA31CF8214D00FA1AAE /* moke.png */,
+				57760AA41CF8214D00FA1AAE /* grassland.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57760A621CF81C5600FA1AAE /* LCNibBridgeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57760A8B1CF81C5700FA1AAE /* Build configuration list for PBXNativeTarget "LCNibBridgeDemo" */;
+			buildPhases = (
+				57760A5F1CF81C5600FA1AAE /* Sources */,
+				57760A601CF81C5600FA1AAE /* Frameworks */,
+				57760A611CF81C5600FA1AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCNibBridgeDemo;
+			productName = LCNibBridgeDemo;
+			productReference = 57760A631CF81C5600FA1AAE /* LCNibBridgeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57760A761CF81C5700FA1AAE /* LCNibBridgeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57760A8E1CF81C5700FA1AAE /* Build configuration list for PBXNativeTarget "LCNibBridgeDemoTests" */;
+			buildPhases = (
+				57760A731CF81C5700FA1AAE /* Sources */,
+				57760A741CF81C5700FA1AAE /* Frameworks */,
+				57760A751CF81C5700FA1AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57760A791CF81C5700FA1AAE /* PBXTargetDependency */,
+			);
+			name = LCNibBridgeDemoTests;
+			productName = LCNibBridgeDemoTests;
+			productReference = 57760A771CF81C5700FA1AAE /* LCNibBridgeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57760A811CF81C5700FA1AAE /* LCNibBridgeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57760A911CF81C5700FA1AAE /* Build configuration list for PBXNativeTarget "LCNibBridgeDemoUITests" */;
+			buildPhases = (
+				57760A7E1CF81C5700FA1AAE /* Sources */,
+				57760A7F1CF81C5700FA1AAE /* Frameworks */,
+				57760A801CF81C5700FA1AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57760A841CF81C5700FA1AAE /* PBXTargetDependency */,
+			);
+			name = LCNibBridgeDemoUITests;
+			productName = LCNibBridgeDemoUITests;
+			productReference = 57760A821CF81C5700FA1AAE /* LCNibBridgeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57760A5B1CF81C5600FA1AAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "刘通超";
+				TargetAttributes = {
+					57760A621CF81C5600FA1AAE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					57760A761CF81C5700FA1AAE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 57760A621CF81C5600FA1AAE;
+					};
+					57760A811CF81C5700FA1AAE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 57760A621CF81C5600FA1AAE;
+					};
+				};
+			};
+			buildConfigurationList = 57760A5E1CF81C5600FA1AAE /* Build configuration list for PBXProject "LCNibBridgeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57760A5A1CF81C5600FA1AAE;
+			productRefGroup = 57760A641CF81C5600FA1AAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57760A621CF81C5600FA1AAE /* LCNibBridgeDemo */,
+				57760A761CF81C5700FA1AAE /* LCNibBridgeDemoTests */,
+				57760A811CF81C5700FA1AAE /* LCNibBridgeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57760A611CF81C5600FA1AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57760AA01CF81FFE00FA1AAE /* LCGrasslandView.xib in Resources */,
+				57760A711CF81C5600FA1AAE /* LaunchScreen.storyboard in Resources */,
+				57760A9A1CF81FB300FA1AAE /* LCMokeView.xib in Resources */,
+				57760A6E1CF81C5600FA1AAE /* Assets.xcassets in Resources */,
+				57760A6C1CF81C5600FA1AAE /* Main.storyboard in Resources */,
+				57760AA61CF8214D00FA1AAE /* grassland.png in Resources */,
+				57760AA51CF8214D00FA1AAE /* moke.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57760A751CF81C5700FA1AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57760A801CF81C5700FA1AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57760A5F1CF81C5600FA1AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57760A691CF81C5600FA1AAE /* ViewController.swift in Sources */,
+				57760A9E1CF81FE300FA1AAE /* LCGrasslandView.swift in Sources */,
+				57760A981CF81C8300FA1AAE /* LCNibBridge.swift in Sources */,
+				57760A971CF81C8300FA1AAE /* LCNibConvention.swift in Sources */,
+				57760A9C1CF81FBD00FA1AAE /* LCMokeView.swift in Sources */,
+				57760A671CF81C5600FA1AAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57760A731CF81C5700FA1AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57760A7C1CF81C5700FA1AAE /* LCNibBridgeDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57760A7E1CF81C5700FA1AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57760A871CF81C5700FA1AAE /* LCNibBridgeDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57760A791CF81C5700FA1AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57760A621CF81C5600FA1AAE /* LCNibBridgeDemo */;
+			targetProxy = 57760A781CF81C5700FA1AAE /* PBXContainerItemProxy */;
+		};
+		57760A841CF81C5700FA1AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57760A621CF81C5600FA1AAE /* LCNibBridgeDemo */;
+			targetProxy = 57760A831CF81C5700FA1AAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57760A6A1CF81C5600FA1AAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57760A6B1CF81C5600FA1AAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57760A6F1CF81C5600FA1AAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57760A701CF81C5600FA1AAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57760A891CF81C5700FA1AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57760A8A1CF81C5700FA1AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57760A8C1CF81C5700FA1AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LCNibBridgeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LX.LCNibBridgeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57760A8D1CF81C5700FA1AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LCNibBridgeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LX.LCNibBridgeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57760A8F1CF81C5700FA1AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LCNibBridgeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LX.LCNibBridgeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCNibBridgeDemo.app/LCNibBridgeDemo";
+			};
+			name = Debug;
+		};
+		57760A901CF81C5700FA1AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LCNibBridgeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LX.LCNibBridgeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCNibBridgeDemo.app/LCNibBridgeDemo";
+			};
+			name = Release;
+		};
+		57760A921CF81C5700FA1AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LCNibBridgeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LX.LCNibBridgeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LCNibBridgeDemo;
+			};
+			name = Debug;
+		};
+		57760A931CF81C5700FA1AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LCNibBridgeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LX.LCNibBridgeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LCNibBridgeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57760A5E1CF81C5600FA1AAE /* Build configuration list for PBXProject "LCNibBridgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57760A891CF81C5700FA1AAE /* Debug */,
+				57760A8A1CF81C5700FA1AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57760A8B1CF81C5700FA1AAE /* Build configuration list for PBXNativeTarget "LCNibBridgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57760A8C1CF81C5700FA1AAE /* Debug */,
+				57760A8D1CF81C5700FA1AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57760A8E1CF81C5700FA1AAE /* Build configuration list for PBXNativeTarget "LCNibBridgeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57760A8F1CF81C5700FA1AAE /* Debug */,
+				57760A901CF81C5700FA1AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57760A911CF81C5700FA1AAE /* Build configuration list for PBXNativeTarget "LCNibBridgeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57760A921CF81C5700FA1AAE /* Debug */,
+				57760A931CF81C5700FA1AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57760A5B1CF81C5600FA1AAE /* Project object */;
+}
