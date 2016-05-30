@@ -530,6 +530,7 @@
 				57760A8D1CF81C5700FA1AAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57760A8E1CF81C5700FA1AAE /* Build configuration list for PBXNativeTarget "LCNibBridgeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +539,7 @@
 				57760A901CF81C5700FA1AAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57760A911CF81C5700FA1AAE /* Build configuration list for PBXNativeTarget "LCNibBridgeDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +548,7 @@
 				57760A931CF81C5700FA1AAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

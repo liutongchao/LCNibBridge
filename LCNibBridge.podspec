@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "LCNibBridge"
-  s.version      = "1.0.0"
+  s.name         = 'LCNibBridge'
+  s.version      = '1.0.0'
   s.summary      = "A Swift IB tool used on iOS ."
 
   # This description is used to generate tags and improve search results.
@@ -39,8 +39,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = 'MIT'
+  #s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -53,13 +53,12 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "liutongchao" => "413281269@qq.com" }
+  s.author             = { 'liutongchao' => '413281269@qq.com' }
   # Or just: s.author    = "liutongchao"
   # s.authors            = { "liutongchao" => "413281269@qq.com" }
   # s.social_media_url   = "http://twitter.com/liutongchao"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
   #  If this Pod runs only on iOS or OS X, then specify the platform and
   #  the deployment target. You can optionally include the target after the platform.
   #
@@ -92,7 +91,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "LCNibBridge", "LCNibBridge/**/*.{swift}"
-  s.exclude_files = "Classes/Exclude"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.swift"
 
