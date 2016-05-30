@@ -30,7 +30,14 @@ Runtime
 
 3.Conform to LCNibBridge and implement the method in protocol
 
-![](https://github.com/liutongchao/LCNibBridge/blob/master/LCNibBridgeDemo/ScreenShot/implement.png)
+      import UIKit
+      import LCNibBridge
+
+      class Test: UIView ,  LCNibBridge{
+         func LC_NibBridgeUsefull() -> Bool {
+              return true
+          }
+      }
 
 #Tips
 >####If you don't want use LCNibBridge in a class , please clean the LCNibBridge protocol and the implement method in protocol
