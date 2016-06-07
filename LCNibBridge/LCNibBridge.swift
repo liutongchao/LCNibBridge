@@ -44,25 +44,16 @@ extension UIView{
         
         if self.respondsToSelector(NSSelectorFromString("LC_NibBridgeUsefull")){//首先确定类遵守了LCNibBridge 协议
             
-            //通过往类里边添加方法来实现对类的标记
-            for index in 0...Int.max-1 {
-                //通过一个for循环来解决多次调用
-                let isLoading = class_getInstanceMethod(self.classForCoder,NSSelectorFromString("LC_NibBridgeIsLoading\(index)"))
-                let isLoadover = class_getInstanceMethod(self.classForCoder,NSSelectorFromString("LC_NibBridgeIsLoadover\(index)"))
-                
-                if isLoadover == nil && isLoading == nil {
-                    print(self.lc_nibId_instance()+"\(index)")
-                    //标记该类正在桥接
-                    class_addMethod(self.classForCoder, NSSelectorFromString("LC_NibBridgeIsLoading\(index)"), nil, nil)
-    
-                    return self.instantiateRealViewFromPlaceholder(self)
-                }else if isLoading != nil && isLoadover == nil {
-                    //标记该类已经桥接完毕
-                    class_addMethod(self.classForCoder, NSSelectorFromString("LC_NibBridgeIsLoadover\(index)"), nil, nil)
-
-                    return self;
-                }
+            let version = class_getVersion(self.classForCoder)
+            
+            if version == 0 {
+                //标记该类正在桥接
+                class_setVersion(self.classForCoder, 1)
+                return self.instantiateRealViewFromPlaceholder(self)
             }
+            //标记该类已经桥接完毕
+            class_setVersion(self.classForCoder, 0)
+            return self
         }
         return self
     }

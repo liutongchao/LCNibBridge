@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		575F20B61D06CF3F00FD73CC /* LCNibBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575F20B41D06CF3F00FD73CC /* LCNibBridge.swift */; };
+		575F20B71D06CF3F00FD73CC /* LCNibConvention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575F20B51D06CF3F00FD73CC /* LCNibConvention.swift */; };
 		57760A671CF81C5600FA1AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A661CF81C5600FA1AAE /* AppDelegate.swift */; };
 		57760A691CF81C5600FA1AAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A681CF81C5600FA1AAE /* ViewController.swift */; };
 		57760A6C1CF81C5600FA1AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57760A6A1CF81C5600FA1AAE /* Main.storyboard */; };
@@ -14,8 +16,6 @@
 		57760A711CF81C5600FA1AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57760A6F1CF81C5600FA1AAE /* LaunchScreen.storyboard */; };
 		57760A7C1CF81C5700FA1AAE /* LCNibBridgeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A7B1CF81C5700FA1AAE /* LCNibBridgeDemoTests.swift */; };
 		57760A871CF81C5700FA1AAE /* LCNibBridgeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A861CF81C5700FA1AAE /* LCNibBridgeDemoUITests.swift */; };
-		57760A971CF81C8300FA1AAE /* LCNibConvention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A951CF81C8300FA1AAE /* LCNibConvention.swift */; };
-		57760A981CF81C8300FA1AAE /* LCNibBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A961CF81C8300FA1AAE /* LCNibBridge.swift */; };
 		57760A9A1CF81FB300FA1AAE /* LCMokeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57760A991CF81FB300FA1AAE /* LCMokeView.xib */; };
 		57760A9C1CF81FBD00FA1AAE /* LCMokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A9B1CF81FBD00FA1AAE /* LCMokeView.swift */; };
 		57760A9E1CF81FE300FA1AAE /* LCGrasslandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A9D1CF81FE300FA1AAE /* LCGrasslandView.swift */; };
@@ -42,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		575F20B41D06CF3F00FD73CC /* LCNibBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibBridge.swift; sourceTree = "<group>"; };
+		575F20B51D06CF3F00FD73CC /* LCNibConvention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibConvention.swift; sourceTree = "<group>"; };
 		57760A631CF81C5600FA1AAE /* LCNibBridgeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCNibBridgeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57760A661CF81C5600FA1AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57760A681CF81C5600FA1AAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,8 +57,6 @@
 		57760A821CF81C5700FA1AAE /* LCNibBridgeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCNibBridgeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57760A861CF81C5700FA1AAE /* LCNibBridgeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCNibBridgeDemoUITests.swift; sourceTree = "<group>"; };
 		57760A881CF81C5700FA1AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57760A951CF81C8300FA1AAE /* LCNibConvention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibConvention.swift; sourceTree = "<group>"; };
-		57760A961CF81C8300FA1AAE /* LCNibBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibBridge.swift; sourceTree = "<group>"; };
 		57760A991CF81FB300FA1AAE /* LCMokeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCMokeView.xib; sourceTree = "<group>"; };
 		57760A9B1CF81FBD00FA1AAE /* LCMokeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCMokeView.swift; sourceTree = "<group>"; };
 		57760A9D1CF81FE300FA1AAE /* LCGrasslandView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCGrasslandView.swift; sourceTree = "<group>"; };
@@ -90,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		575F20B31D06CF3F00FD73CC /* LCNibBridge */ = {
+			isa = PBXGroup;
+			children = (
+				575F20B41D06CF3F00FD73CC /* LCNibBridge.swift */,
+				575F20B51D06CF3F00FD73CC /* LCNibConvention.swift */,
+			);
+			path = LCNibBridge;
+			sourceTree = "<group>";
+		};
 		57760A5A1CF81C5600FA1AAE = {
 			isa = PBXGroup;
 			children = (
@@ -150,8 +159,7 @@
 		57760A941CF81C6F00FA1AAE /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				57760A951CF81C8300FA1AAE /* LCNibConvention.swift */,
-				57760A961CF81C8300FA1AAE /* LCNibBridge.swift */,
+				575F20B31D06CF3F00FD73CC /* LCNibBridge */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -301,11 +309,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				57760A691CF81C5600FA1AAE /* ViewController.swift in Sources */,
+				575F20B71D06CF3F00FD73CC /* LCNibConvention.swift in Sources */,
 				57760A9E1CF81FE300FA1AAE /* LCGrasslandView.swift in Sources */,
-				57760A981CF81C8300FA1AAE /* LCNibBridge.swift in Sources */,
-				57760A971CF81C8300FA1AAE /* LCNibConvention.swift in Sources */,
 				57760A9C1CF81FBD00FA1AAE /* LCMokeView.swift in Sources */,
 				57760A671CF81C5600FA1AAE /* AppDelegate.swift in Sources */,
+				575F20B61D06CF3F00FD73CC /* LCNibBridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
