@@ -2,7 +2,7 @@
 Swift 动态桥接库
 
 #Installation
-pod 'LCNibBridge', '~> 1.0.0'
+pod 'LCNibBridge', '~> 1.2.3'
 
 or pod search LCNibBridge to check
 
@@ -28,19 +28,15 @@ Runtime
 
 ![class](https://github.com/liutongchao/LCNibBridge/blob/master/LCNibBridgeDemo/ScreenShot/story.png)
 
-3.Conform to LCNibBridge and implement the method in protocol
+3.Conform to LCNibBridge protocol
 
       import UIKit
       import LCNibBridge
 
       class Test: UIView ,  LCNibBridge{
-         func LC_NibBridgeUsefull() -> Bool {
-              return true
-          }
+ 
       }
 
-#Tips
->####If you don't want use LCNibBridge in a class , please clean the LCNibBridge protocol and the implement method in protocol
 
 ###如果你在天朝，请看我的中文博客
->http://www.jianshu.com/p/9bd3f8fd3381
+>http://www.jianshu.com/p/d39f19d60544
