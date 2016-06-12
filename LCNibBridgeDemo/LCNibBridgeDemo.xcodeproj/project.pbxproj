@@ -20,9 +20,9 @@
 		57760AA01CF81FFE00FA1AAE /* LCGrasslandView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57760A9F1CF81FFE00FA1AAE /* LCGrasslandView.xib */; };
 		57760AA51CF8214D00FA1AAE /* moke.png in Resources */ = {isa = PBXBuildFile; fileRef = 57760AA31CF8214D00FA1AAE /* moke.png */; };
 		57760AA61CF8214D00FA1AAE /* grassland.png in Resources */ = {isa = PBXBuildFile; fileRef = 57760AA41CF8214D00FA1AAE /* grassland.png */; };
-		57D59E971D0D1AA9003BF2D6 /* LCNibBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D59E951D0D1AA9003BF2D6 /* LCNibBridge.swift */; };
-		57D59E981D0D1AA9003BF2D6 /* LCNibConvention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D59E961D0D1AA9003BF2D6 /* LCNibConvention.swift */; };
 		57D59E9C1D0D1D52003BF2D6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D59E9B1D0D1D52003BF2D6 /* TableViewController.swift */; };
+		57D59EA91D0D3097003BF2D6 /* LCNibBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D59EA71D0D3097003BF2D6 /* LCNibBridge.swift */; };
+		57D59EAA1D0D3097003BF2D6 /* LCNibConvention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D59EA81D0D3097003BF2D6 /* LCNibConvention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +62,9 @@
 		57760A9F1CF81FFE00FA1AAE /* LCGrasslandView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCGrasslandView.xib; sourceTree = "<group>"; };
 		57760AA31CF8214D00FA1AAE /* moke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moke.png; sourceTree = "<group>"; };
 		57760AA41CF8214D00FA1AAE /* grassland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grassland.png; sourceTree = "<group>"; };
-		57D59E951D0D1AA9003BF2D6 /* LCNibBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibBridge.swift; sourceTree = "<group>"; };
-		57D59E961D0D1AA9003BF2D6 /* LCNibConvention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibConvention.swift; sourceTree = "<group>"; };
 		57D59E9B1D0D1D52003BF2D6 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		57D59EA71D0D3097003BF2D6 /* LCNibBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibBridge.swift; sourceTree = "<group>"; };
+		57D59EA81D0D3097003BF2D6 /* LCNibConvention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibConvention.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +153,7 @@
 		57760A941CF81C6F00FA1AAE /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				57D59E941D0D1AA9003BF2D6 /* LCNibBridge */,
+				57D59EA61D0D3097003BF2D6 /* LCNibBridge */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -167,11 +167,11 @@
 			name = Image;
 			sourceTree = "<group>";
 		};
-		57D59E941D0D1AA9003BF2D6 /* LCNibBridge */ = {
+		57D59EA61D0D3097003BF2D6 /* LCNibBridge */ = {
 			isa = PBXGroup;
 			children = (
-				57D59E951D0D1AA9003BF2D6 /* LCNibBridge.swift */,
-				57D59E961D0D1AA9003BF2D6 /* LCNibConvention.swift */,
+				57D59EA71D0D3097003BF2D6 /* LCNibBridge.swift */,
+				57D59EA81D0D3097003BF2D6 /* LCNibConvention.swift */,
 			);
 			path = LCNibBridge;
 			sourceTree = "<group>";
@@ -313,11 +313,11 @@
 			files = (
 				57760A691CF81C5600FA1AAE /* ViewController.swift in Sources */,
 				57D59E9C1D0D1D52003BF2D6 /* TableViewController.swift in Sources */,
-				57D59E981D0D1AA9003BF2D6 /* LCNibConvention.swift in Sources */,
 				57760A9E1CF81FE300FA1AAE /* LCGrasslandView.swift in Sources */,
 				57760A9C1CF81FBD00FA1AAE /* LCMokeView.swift in Sources */,
 				57760A671CF81C5600FA1AAE /* AppDelegate.swift in Sources */,
-				57D59E971D0D1AA9003BF2D6 /* LCNibBridge.swift in Sources */,
+				57D59EAA1D0D3097003BF2D6 /* LCNibConvention.swift in Sources */,
+				57D59EA91D0D3097003BF2D6 /* LCNibBridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
