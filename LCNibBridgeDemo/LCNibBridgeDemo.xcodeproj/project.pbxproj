@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		575F20B61D06CF3F00FD73CC /* LCNibBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575F20B41D06CF3F00FD73CC /* LCNibBridge.swift */; };
-		575F20B71D06CF3F00FD73CC /* LCNibConvention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575F20B51D06CF3F00FD73CC /* LCNibConvention.swift */; };
 		57760A671CF81C5600FA1AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A661CF81C5600FA1AAE /* AppDelegate.swift */; };
 		57760A691CF81C5600FA1AAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A681CF81C5600FA1AAE /* ViewController.swift */; };
 		57760A6C1CF81C5600FA1AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57760A6A1CF81C5600FA1AAE /* Main.storyboard */; };
@@ -22,6 +20,9 @@
 		57760AA01CF81FFE00FA1AAE /* LCGrasslandView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57760A9F1CF81FFE00FA1AAE /* LCGrasslandView.xib */; };
 		57760AA51CF8214D00FA1AAE /* moke.png in Resources */ = {isa = PBXBuildFile; fileRef = 57760AA31CF8214D00FA1AAE /* moke.png */; };
 		57760AA61CF8214D00FA1AAE /* grassland.png in Resources */ = {isa = PBXBuildFile; fileRef = 57760AA41CF8214D00FA1AAE /* grassland.png */; };
+		57D59E971D0D1AA9003BF2D6 /* LCNibBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D59E951D0D1AA9003BF2D6 /* LCNibBridge.swift */; };
+		57D59E981D0D1AA9003BF2D6 /* LCNibConvention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D59E961D0D1AA9003BF2D6 /* LCNibConvention.swift */; };
+		57D59E9C1D0D1D52003BF2D6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D59E9B1D0D1D52003BF2D6 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		575F20B41D06CF3F00FD73CC /* LCNibBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibBridge.swift; sourceTree = "<group>"; };
-		575F20B51D06CF3F00FD73CC /* LCNibConvention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibConvention.swift; sourceTree = "<group>"; };
 		57760A631CF81C5600FA1AAE /* LCNibBridgeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCNibBridgeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57760A661CF81C5600FA1AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57760A681CF81C5600FA1AAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +62,9 @@
 		57760A9F1CF81FFE00FA1AAE /* LCGrasslandView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCGrasslandView.xib; sourceTree = "<group>"; };
 		57760AA31CF8214D00FA1AAE /* moke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moke.png; sourceTree = "<group>"; };
 		57760AA41CF8214D00FA1AAE /* grassland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grassland.png; sourceTree = "<group>"; };
+		57D59E951D0D1AA9003BF2D6 /* LCNibBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibBridge.swift; sourceTree = "<group>"; };
+		57D59E961D0D1AA9003BF2D6 /* LCNibConvention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibConvention.swift; sourceTree = "<group>"; };
+		57D59E9B1D0D1D52003BF2D6 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,15 +92,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		575F20B31D06CF3F00FD73CC /* LCNibBridge */ = {
-			isa = PBXGroup;
-			children = (
-				575F20B41D06CF3F00FD73CC /* LCNibBridge.swift */,
-				575F20B51D06CF3F00FD73CC /* LCNibConvention.swift */,
-			);
-			path = LCNibBridge;
-			sourceTree = "<group>";
-		};
 		57760A5A1CF81C5600FA1AAE = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +118,7 @@
 			children = (
 				57760A661CF81C5600FA1AAE /* AppDelegate.swift */,
 				57760A681CF81C5600FA1AAE /* ViewController.swift */,
+				57D59E9B1D0D1D52003BF2D6 /* TableViewController.swift */,
 				57760A9B1CF81FBD00FA1AAE /* LCMokeView.swift */,
 				57760A991CF81FB300FA1AAE /* LCMokeView.xib */,
 				57760A9D1CF81FE300FA1AAE /* LCGrasslandView.swift */,
@@ -159,7 +153,7 @@
 		57760A941CF81C6F00FA1AAE /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				575F20B31D06CF3F00FD73CC /* LCNibBridge */,
+				57D59E941D0D1AA9003BF2D6 /* LCNibBridge */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -171,6 +165,15 @@
 				57760AA41CF8214D00FA1AAE /* grassland.png */,
 			);
 			name = Image;
+			sourceTree = "<group>";
+		};
+		57D59E941D0D1AA9003BF2D6 /* LCNibBridge */ = {
+			isa = PBXGroup;
+			children = (
+				57D59E951D0D1AA9003BF2D6 /* LCNibBridge.swift */,
+				57D59E961D0D1AA9003BF2D6 /* LCNibConvention.swift */,
+			);
+			path = LCNibBridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,11 +312,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				57760A691CF81C5600FA1AAE /* ViewController.swift in Sources */,
-				575F20B71D06CF3F00FD73CC /* LCNibConvention.swift in Sources */,
+				57D59E9C1D0D1D52003BF2D6 /* TableViewController.swift in Sources */,
+				57D59E981D0D1AA9003BF2D6 /* LCNibConvention.swift in Sources */,
 				57760A9E1CF81FE300FA1AAE /* LCGrasslandView.swift in Sources */,
 				57760A9C1CF81FBD00FA1AAE /* LCMokeView.swift in Sources */,
 				57760A671CF81C5600FA1AAE /* AppDelegate.swift in Sources */,
-				575F20B61D06CF3F00FD73CC /* LCNibBridge.swift in Sources */,
+				57D59E971D0D1AA9003BF2D6 /* LCNibBridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

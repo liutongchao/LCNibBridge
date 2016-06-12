@@ -9,7 +9,4 @@
 import UIKit
 
 class LCMokeView: UIView,LCNibBridge{
-    func LC_NibBridgeUsefull() -> Bool {
-        return true
-    }
 }

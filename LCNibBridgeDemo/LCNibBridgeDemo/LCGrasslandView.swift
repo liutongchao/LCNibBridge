@@ -8,7 +8,4 @@
 
 import UIKit
 class LCGrasslandView: UIView,LCNibBridge{
-    func LC_NibBridgeUsefull() -> Bool {
-        return true
-    }
 }
