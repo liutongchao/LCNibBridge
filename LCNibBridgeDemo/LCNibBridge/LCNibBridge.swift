@@ -15,7 +15,7 @@ public protocol LCNibBridge {
 
 extension UIView{
 
-    public override func awakeAfterUsingCoder(aDecoder: NSCoder) -> AnyObject? {
+    open override func awakeAfter(using aDecoder: NSCoder) -> Any? {
         
         if class_conformsToProtocol(self.classForCoder, LCNibBridge.self) {
             let version = class_getVersion(self.classForCoder)
@@ -38,28 +38,52 @@ extension UIView{
     }
 
     
-    func instantiateRealView(placeholdView:UIView) -> UIView? {
+    func instantiateRealView(_ placeholdView:UIView) -> UIView? {
         //从xib中加载真正的视图
         let realView = placeholdView.lc_instantiateFromNib()
         //迁移View的所有属性
-        realView?.tag = placeholdView.tag;
-        realView?.frame = placeholdView.frame;
-        realView?.bounds = placeholdView.bounds;
-        realView?.hidden = placeholdView.hidden;
-        realView?.clipsToBounds = placeholdView.clipsToBounds;
-        realView?.autoresizingMask = placeholdView.autoresizingMask;
-        realView?.userInteractionEnabled = placeholdView.userInteractionEnabled;
-        realView?.translatesAutoresizingMaskIntoConstraints = placeholdView.translatesAutoresizingMaskIntoConstraints;
-        if realView != nil {
-            for constraint in placeholdView.constraints {
-                if (constraint.secondItem == nil) {
-                    constraint.setValue(realView, forKey: "firstItem")
-                    realView?.addConstraint(constraint)
-                }else if (constraint.firstItem.isEqual(constraint.secondItem)){
-                    constraint.setValue(realView, forKey: "firstItem")
-                    constraint.setValue(realView, forKey: "secondItem")
-                    realView?.addConstraint(constraint)
+        realView?.tag = placeholdView.tag
+        realView?.frame = placeholdView.frame
+        realView?.bounds = placeholdView.bounds
+        realView?.isHidden = placeholdView.isHidden
+        realView?.clipsToBounds = placeholdView.clipsToBounds
+        realView?.autoresizingMask = placeholdView.autoresizingMask
+        realView?.isUserInteractionEnabled = placeholdView.isUserInteractionEnabled
+        realView?.translatesAutoresizingMaskIntoConstraints = placeholdView.translatesAutoresizingMaskIntoConstraints
+    
+        if placeholdView.constraints.count > 0{
+            if realView != nil {
+                for constraint in placeholdView.constraints {
+                    var newConstraint: NSLayoutConstraint?
+                    if constraint.secondItem == nil {
+                        
+                        newConstraint = NSLayoutConstraint.init(item: realView!, attribute: constraint.firstAttribute, relatedBy: constraint.relation, toItem: nil, attribute: constraint.secondAttribute, multiplier: constraint.multiplier, constant: constraint.constant)
+                        
+                    }else if(constraint.firstItem === constraint.secondItem){
+                        
+                        newConstraint = NSLayoutConstraint.init(item: realView!,
+                                                                attribute: constraint.firstAttribute,
+                                                                relatedBy: constraint.relation,
+                                                                toItem: realView!,
+                                                                attribute: constraint.secondAttribute,
+                                                                multiplier: constraint.multiplier,
+                                                                constant: constraint.constant)
+                        
+                    }
+                    
+                    if newConstraint != nil {
+                        newConstraint?.shouldBeArchived = constraint.shouldBeArchived
+                        newConstraint?.priority = constraint.priority
+                        let version = UIDevice.current.systemVersion as NSString
+                        
+                        if version.floatValue >= 7.0 {
+                            newConstraint?.identifier = constraint.identifier
+                        }
+                        realView?.addConstraint(newConstraint!)
+                    }
+        
                 }
+
             }
         }
         

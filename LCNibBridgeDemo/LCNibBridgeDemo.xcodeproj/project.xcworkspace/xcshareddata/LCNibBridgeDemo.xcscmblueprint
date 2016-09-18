@@ -9,7 +9,7 @@
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FCAF9867-2188-4D5C-8692-1A556840D872",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "EF8AAB5D48718313968E67A84B50952F6676DAC9" : "",
+    "EF8AAB5D48718313968E67A84B50952F6676DAC9" : "..",
     "B1DCAC38FC0AA21FE74240A01DB188BB307FCBC9" : "LCNibBridge\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "LCNibBridgeDemo",
