@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = 'LCNibBridge'
-  s.version      = '1.2.3'
+  s.version      = '1.3.0'
   s.summary      = "A Swift IB tool used on iOS ."
 
   # This description is used to generate tags and improve search results.
