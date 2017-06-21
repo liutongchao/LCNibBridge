@@ -48,6 +48,16 @@
                ReferencedContainer = "container:LCNibBridgeDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "57B55EBF1EFA41C10072F7C7"
+               BuildableName = "LCNibBridgeTests.xctest"
+               BlueprintName = "LCNibBridgeTests"
+               ReferencedContainer = "container:LCNibBridgeDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
