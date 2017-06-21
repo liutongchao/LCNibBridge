@@ -1,0 +1,10 @@
+framework module LCNibBridge {
+  umbrella header "LCNibBridge.h"
+
+  export *
+  module * { export * }
+}
+
+module LCNibBridge.Swift {
+    header "LCNibBridge-Swift.h"
+}

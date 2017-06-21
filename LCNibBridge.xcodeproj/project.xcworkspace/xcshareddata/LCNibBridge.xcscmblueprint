@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B1DCAC38FC0AA21FE74240A01DB188BB307FCBC9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EF8AAB5D48718313968E67A84B50952F6676DAC9" : 9223372036854775807,
+    "B1DCAC38FC0AA21FE74240A01DB188BB307FCBC9" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "09BDDD05-D3F8-4F33-A7FC-F7D71C68D958",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EF8AAB5D48718313968E67A84B50952F6676DAC9" : "..",
+    "B1DCAC38FC0AA21FE74240A01DB188BB307FCBC9" : "LCNibBridge\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LCNibBridge",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LCNibBridge.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/liutongchao\/LCNibBridge.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B1DCAC38FC0AA21FE74240A01DB188BB307FCBC9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/liutongchao\/SwiftPos.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EF8AAB5D48718313968E67A84B50952F6676DAC9"
+    }
+  ]
+}
