@@ -22,7 +22,6 @@
 		57760AA61CF8214D00FA1AAE /* grassland.png in Resources */ = {isa = PBXBuildFile; fileRef = 57760AA41CF8214D00FA1AAE /* grassland.png */; };
 		57A820B61EFA548A00DD3F55 /* LCNibBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A820B41EFA548A00DD3F55 /* LCNibBridge.swift */; };
 		57A820B71EFA548A00DD3F55 /* LCNibConvention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A820B51EFA548A00DD3F55 /* LCNibConvention.swift */; };
-		57B55EC81EFA41C10072F7C7 /* LCNibBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B55EC71EFA41C10072F7C7 /* LCNibBridgeTests.swift */; };
 		57D59E9C1D0D1D52003BF2D6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D59E9B1D0D1D52003BF2D6 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,13 +34,6 @@
 			remoteInfo = LCNibBridgeDemo;
 		};
 		57760A831CF81C5700FA1AAE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 57760A5B1CF81C5600FA1AAE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 57760A621CF81C5600FA1AAE;
-			remoteInfo = LCNibBridgeDemo;
-		};
-		57B55EC41EFA41C10072F7C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 57760A5B1CF81C5600FA1AAE /* Project object */;
 			proxyType = 1;
@@ -85,11 +77,6 @@
 		57760AA41CF8214D00FA1AAE /* grassland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grassland.png; sourceTree = "<group>"; };
 		57A820B41EFA548A00DD3F55 /* LCNibBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibBridge.swift; sourceTree = "<group>"; };
 		57A820B51EFA548A00DD3F55 /* LCNibConvention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibConvention.swift; sourceTree = "<group>"; };
-		57B55EBA1EFA41C10072F7C7 /* LCNibBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCNibBridge.h; sourceTree = "<group>"; };
-		57B55EBB1EFA41C10072F7C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57B55EC01EFA41C10072F7C7 /* LCNibBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCNibBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		57B55EC71EFA41C10072F7C7 /* LCNibBridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCNibBridgeTests.swift; sourceTree = "<group>"; };
-		57B55EC91EFA41C10072F7C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57D59E9B1D0D1D52003BF2D6 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,13 +102,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		57B55EBD1EFA41C10072F7C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -132,8 +112,6 @@
 				57760A651CF81C5600FA1AAE /* LCNibBridgeDemo */,
 				57760A7A1CF81C5700FA1AAE /* LCNibBridgeDemoTests */,
 				57760A851CF81C5700FA1AAE /* LCNibBridgeDemoUITests */,
-				57B55EB91EFA41C10072F7C7 /* LCNibBridge */,
-				57B55EC61EFA41C10072F7C7 /* LCNibBridgeTests */,
 				57760A641CF81C5600FA1AAE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -144,7 +122,6 @@
 				57760A631CF81C5600FA1AAE /* LCNibBridgeDemo.app */,
 				57760A771CF81C5700FA1AAE /* LCNibBridgeDemoTests.xctest */,
 				57760A821CF81C5700FA1AAE /* LCNibBridgeDemoUITests.xctest */,
-				57B55EC01EFA41C10072F7C7 /* LCNibBridgeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,24 +182,6 @@
 			path = ../Source;
 			sourceTree = "<group>";
 		};
-		57B55EB91EFA41C10072F7C7 /* LCNibBridge */ = {
-			isa = PBXGroup;
-			children = (
-				57B55EBA1EFA41C10072F7C7 /* LCNibBridge.h */,
-				57B55EBB1EFA41C10072F7C7 /* Info.plist */,
-			);
-			path = LCNibBridge;
-			sourceTree = "<group>";
-		};
-		57B55EC61EFA41C10072F7C7 /* LCNibBridgeTests */ = {
-			isa = PBXGroup;
-			children = (
-				57B55EC71EFA41C10072F7C7 /* LCNibBridgeTests.swift */,
-				57B55EC91EFA41C10072F7C7 /* Info.plist */,
-			);
-			path = LCNibBridgeTests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -280,24 +239,6 @@
 			productReference = 57760A821CF81C5700FA1AAE /* LCNibBridgeDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		57B55EBF1EFA41C10072F7C7 /* LCNibBridgeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 57B55ED31EFA41C10072F7C7 /* Build configuration list for PBXNativeTarget "LCNibBridgeTests" */;
-			buildPhases = (
-				57B55EBC1EFA41C10072F7C7 /* Sources */,
-				57B55EBD1EFA41C10072F7C7 /* Frameworks */,
-				57B55EBE1EFA41C10072F7C7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				57B55EC51EFA41C10072F7C7 /* PBXTargetDependency */,
-			);
-			name = LCNibBridgeTests;
-			productName = LCNibBridgeTests;
-			productReference = 57B55EC01EFA41C10072F7C7 /* LCNibBridgeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -305,29 +246,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "刘通超";
 				TargetAttributes = {
 					57760A621CF81C5600FA1AAE = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = FEN4DYVP62;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Manual;
 					};
 					57760A761CF81C5700FA1AAE = {
 						CreatedOnToolsVersion = 7.3;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0930;
 						TestTargetID = 57760A621CF81C5600FA1AAE;
 					};
 					57760A811CF81C5700FA1AAE = {
 						CreatedOnToolsVersion = 7.3;
-						LastSwiftMigration = 0800;
-						TestTargetID = 57760A621CF81C5600FA1AAE;
-					};
-					57B55EBF1EFA41C10072F7C7 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = FEN4DYVP62;
-						ProvisioningStyle = Automatic;
+						LastSwiftMigration = 0930;
 						TestTargetID = 57760A621CF81C5600FA1AAE;
 					};
 				};
@@ -348,7 +283,6 @@
 				57760A621CF81C5600FA1AAE /* LCNibBridgeDemo */,
 				57760A761CF81C5700FA1AAE /* LCNibBridgeDemoTests */,
 				57760A811CF81C5700FA1AAE /* LCNibBridgeDemoUITests */,
-				57B55EBF1EFA41C10072F7C7 /* LCNibBridgeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -376,13 +310,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		57760A801CF81C5700FA1AAE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		57B55EBE1EFA41C10072F7C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -422,14 +349,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		57B55EBC1EFA41C10072F7C7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				57B55EC81EFA41C10072F7C7 /* LCNibBridgeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -442,11 +361,6 @@
 			isa = PBXTargetDependency;
 			target = 57760A621CF81C5600FA1AAE /* LCNibBridgeDemo */;
 			targetProxy = 57760A831CF81C5700FA1AAE /* PBXContainerItemProxy */;
-		};
-		57B55EC51EFA41C10072F7C7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 57760A621CF81C5600FA1AAE /* LCNibBridgeDemo */;
-			targetProxy = 57B55EC41EFA41C10072F7C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -479,14 +393,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -526,14 +448,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -571,7 +501,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "57c25a6f-e72c-4a26-959a-dbbe86b3b980";
 				PROVISIONING_PROFILE_SPECIFIER = "SHLoveStudy Development";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -588,7 +519,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "57c25a6f-e72c-4a26-959a-dbbe86b3b980";
 				PROVISIONING_PROFILE_SPECIFIER = "SHLoveStudy Development";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -600,7 +532,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LX.LCNibBridgeDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCNibBridgeDemo.app/LCNibBridgeDemo";
 			};
 			name = Debug;
@@ -613,7 +546,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LX.LCNibBridgeDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCNibBridgeDemo.app/LCNibBridgeDemo";
 			};
 			name = Release;
@@ -625,7 +559,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LX.LCNibBridgeDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = LCNibBridgeDemo;
 			};
 			name = Debug;
@@ -637,41 +572,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LX.LCNibBridgeDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = LCNibBridgeDemo;
-			};
-			name = Release;
-		};
-		57B55ED41EFA41C10072F7C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				DEVELOPMENT_TEAM = FEN4DYVP62;
-				INFOPLIST_FILE = LCNibBridgeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.isprint.LCNibBridgeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCNibBridgeDemo.app/LCNibBridgeDemo";
-			};
-			name = Debug;
-		};
-		57B55ED51EFA41C10072F7C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				DEVELOPMENT_TEAM = FEN4DYVP62;
-				INFOPLIST_FILE = LCNibBridgeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.isprint.LCNibBridgeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCNibBridgeDemo.app/LCNibBridgeDemo";
 			};
 			name = Release;
 		};
@@ -710,15 +613,6 @@
 			buildConfigurations = (
 				57760A921CF81C5700FA1AAE /* Debug */,
 				57760A931CF81C5700FA1AAE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		57B55ED31EFA41C10072F7C7 /* Build configuration list for PBXNativeTarget "LCNibBridgeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				57B55ED41EFA41C10072F7C7 /* Debug */,
-				57B55ED51EFA41C10072F7C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
