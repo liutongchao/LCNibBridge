@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5764F1F9238F7051003D54F3 /* LCNibConvention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5764F1F7238F7051003D54F3 /* LCNibConvention.swift */; };
+		5764F1FA238F7051003D54F3 /* LCNibBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5764F1F8238F7051003D54F3 /* LCNibBridge.swift */; };
 		57760A671CF81C5600FA1AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A661CF81C5600FA1AAE /* AppDelegate.swift */; };
 		57760A691CF81C5600FA1AAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57760A681CF81C5600FA1AAE /* ViewController.swift */; };
 		57760A6C1CF81C5600FA1AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57760A6A1CF81C5600FA1AAE /* Main.storyboard */; };
@@ -20,8 +22,6 @@
 		57760AA01CF81FFE00FA1AAE /* LCGrasslandView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57760A9F1CF81FFE00FA1AAE /* LCGrasslandView.xib */; };
 		57760AA51CF8214D00FA1AAE /* moke.png in Resources */ = {isa = PBXBuildFile; fileRef = 57760AA31CF8214D00FA1AAE /* moke.png */; };
 		57760AA61CF8214D00FA1AAE /* grassland.png in Resources */ = {isa = PBXBuildFile; fileRef = 57760AA41CF8214D00FA1AAE /* grassland.png */; };
-		57A820B61EFA548A00DD3F55 /* LCNibBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A820B41EFA548A00DD3F55 /* LCNibBridge.swift */; };
-		57A820B71EFA548A00DD3F55 /* LCNibConvention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A820B51EFA548A00DD3F55 /* LCNibConvention.swift */; };
 		57D59E9C1D0D1D52003BF2D6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D59E9B1D0D1D52003BF2D6 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +56,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5764F1F7238F7051003D54F3 /* LCNibConvention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibConvention.swift; sourceTree = "<group>"; };
+		5764F1F8238F7051003D54F3 /* LCNibBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibBridge.swift; sourceTree = "<group>"; };
 		57760A631CF81C5600FA1AAE /* LCNibBridgeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCNibBridgeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57760A661CF81C5600FA1AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57760A681CF81C5600FA1AAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,8 +77,6 @@
 		57760A9F1CF81FFE00FA1AAE /* LCGrasslandView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCGrasslandView.xib; sourceTree = "<group>"; };
 		57760AA31CF8214D00FA1AAE /* moke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moke.png; sourceTree = "<group>"; };
 		57760AA41CF8214D00FA1AAE /* grassland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grassland.png; sourceTree = "<group>"; };
-		57A820B41EFA548A00DD3F55 /* LCNibBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibBridge.swift; sourceTree = "<group>"; };
-		57A820B51EFA548A00DD3F55 /* LCNibConvention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibConvention.swift; sourceTree = "<group>"; };
 		57D59E9B1D0D1D52003BF2D6 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +105,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5764F1F6238F7051003D54F3 /* LCNibBridge */ = {
+			isa = PBXGroup;
+			children = (
+				5764F1F7238F7051003D54F3 /* LCNibConvention.swift */,
+				5764F1F8238F7051003D54F3 /* LCNibBridge.swift */,
+			);
+			path = LCNibBridge;
+			sourceTree = "<group>";
+		};
 		57760A5A1CF81C5600FA1AAE = {
 			isa = PBXGroup;
 			children = (
@@ -175,8 +184,7 @@
 		57A820B31EFA548A00DD3F55 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				57A820B41EFA548A00DD3F55 /* LCNibBridge.swift */,
-				57A820B51EFA548A00DD3F55 /* LCNibConvention.swift */,
+				5764F1F6238F7051003D54F3 /* LCNibBridge */,
 			);
 			name = Source;
 			path = ../Source;
@@ -324,12 +332,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				57760A691CF81C5600FA1AAE /* ViewController.swift in Sources */,
+				5764F1F9238F7051003D54F3 /* LCNibConvention.swift in Sources */,
+				5764F1FA238F7051003D54F3 /* LCNibBridge.swift in Sources */,
 				57D59E9C1D0D1D52003BF2D6 /* TableViewController.swift in Sources */,
 				57760A9E1CF81FE300FA1AAE /* LCGrasslandView.swift in Sources */,
 				57760A9C1CF81FBD00FA1AAE /* LCMokeView.swift in Sources */,
 				57760A671CF81C5600FA1AAE /* AppDelegate.swift in Sources */,
-				57A820B71EFA548A00DD3F55 /* LCNibConvention.swift in Sources */,
-				57A820B61EFA548A00DD3F55 /* LCNibBridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5764F1FE238F706F003D54F3 /* LCNibConvention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5764F1FC238F706F003D54F3 /* LCNibConvention.swift */; };
+		5764F1FF238F706F003D54F3 /* LCNibBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5764F1FD238F706F003D54F3 /* LCNibBridge.swift */; };
 		57A8209E1EFA4C7E00DD3F55 /* LCNibBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A820941EFA4C7E00DD3F55 /* LCNibBridge.framework */; };
 		57A820A31EFA4C7E00DD3F55 /* LCNibBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A820A21EFA4C7E00DD3F55 /* LCNibBridgeTests.swift */; };
 		57A820A51EFA4C7E00DD3F55 /* LCNibBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A820971EFA4C7E00DD3F55 /* LCNibBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57A820B11EFA544F00DD3F55 /* LCNibBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A820AF1EFA544F00DD3F55 /* LCNibBridge.swift */; };
-		57A820B21EFA544F00DD3F55 /* LCNibConvention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A820B01EFA544F00DD3F55 /* LCNibConvention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,14 +25,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5764F1FC238F706F003D54F3 /* LCNibConvention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibConvention.swift; sourceTree = "<group>"; };
+		5764F1FD238F706F003D54F3 /* LCNibBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibBridge.swift; sourceTree = "<group>"; };
 		57A820941EFA4C7E00DD3F55 /* LCNibBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LCNibBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A820971EFA4C7E00DD3F55 /* LCNibBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCNibBridge.h; sourceTree = "<group>"; };
 		57A820981EFA4C7E00DD3F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57A8209D1EFA4C7E00DD3F55 /* LCNibBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCNibBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A820A21EFA4C7E00DD3F55 /* LCNibBridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCNibBridgeTests.swift; sourceTree = "<group>"; };
 		57A820A41EFA4C7E00DD3F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57A820AF1EFA544F00DD3F55 /* LCNibBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibBridge.swift; sourceTree = "<group>"; };
-		57A820B01EFA544F00DD3F55 /* LCNibConvention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCNibConvention.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5764F1FB238F706F003D54F3 /* LCNibBridge */ = {
+			isa = PBXGroup;
+			children = (
+				5764F1FC238F706F003D54F3 /* LCNibConvention.swift */,
+				5764F1FD238F706F003D54F3 /* LCNibBridge.swift */,
+			);
+			path = LCNibBridge;
+			sourceTree = "<group>";
+		};
 		57A8208A1EFA4C7E00DD3F55 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +103,7 @@
 		57A820AE1EFA544F00DD3F55 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				57A820AF1EFA544F00DD3F55 /* LCNibBridge.swift */,
-				57A820B01EFA544F00DD3F55 /* LCNibConvention.swift */,
+				5764F1FB238F706F003D54F3 /* LCNibBridge */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -215,8 +223,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57A820B11EFA544F00DD3F55 /* LCNibBridge.swift in Sources */,
-				57A820B21EFA544F00DD3F55 /* LCNibConvention.swift in Sources */,
+				5764F1FE238F706F003D54F3 /* LCNibConvention.swift in Sources */,
+				5764F1FF238F706F003D54F3 /* LCNibBridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
